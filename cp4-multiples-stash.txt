@@ -1,0 +1,5 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git stash list
+stash@{0}: On main: WIP login paso 4
+stash@{1}: On main: WIP login paso 3
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git stash drop stash@{1}
+Descartado stash@{1} (af04e985d93bc95ff382dc8107fc1a6b38299fe6)

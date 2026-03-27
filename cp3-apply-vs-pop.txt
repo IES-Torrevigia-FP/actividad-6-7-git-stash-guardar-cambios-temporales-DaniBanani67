@@ -1,0 +1,13 @@
+# ANTES
+
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git stash list
+stash@{0}: On main: WIP login pasos 1 y 2
+
+# Despues
+
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git stash pop
+No se encontraron entradas de stash.
+
+
+apply aplica el stash pero lo deja guardado.
+pop lo aplica y lo borra.

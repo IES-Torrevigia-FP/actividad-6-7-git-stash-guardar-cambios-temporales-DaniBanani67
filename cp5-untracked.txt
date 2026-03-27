@@ -1,0 +1,37 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git stash -u -m "Incluye archivo no trackeado"
+No hay cambios locales para guardar
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git status
+En la rama main
+Tu rama está adelantada a 'origin/main' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+nada para hacer commit, el árbol de trabajo está limpio
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git stash list
+stash@{0}: On main: Incluye archivo no trackeado
+stash@{1}: On main: WIP login paso 4
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git stash pop
+En la rama main
+Tu rama está adelantada a 'origin/main' por 1 commit.
+  (usa "git push" para publicar tus commits locales)
+
+Cambios a ser confirmados:
+  (usa "git restore --staged <archivo>..." para sacar del área de stage)
+        nuevos archivos: cp1-estado-inicial.txt
+        nuevos archivos: cp2-stash-list.txt
+        nuevos archivos: cp3-apply-vs-pop.txt
+        nuevos archivos: hotfix.txt
+
+Cambios no rastreados para el commit:
+  (usa "git add <archivo>..." para actualizar lo que será confirmado)
+  (usa "git restore <archivo>..." para descartar los cambios en el directorio de trabajo)
+        modificados:     tarea.txt
+
+Archivos sin seguimiento:
+  (usa "git add <archivo>..." para incluirlo a lo que será confirmado)
+        cp4-multiples-stash.txt
+        notas-temporales.txt
+
+Descartado refs/stash@{0} (90aaa6fda5df95462a9c75b5910c444ec7023724)
+
+El git stash normal no guarda archivos nuevos (no trackeados).
+Con -u también guarda esos archivos, así no se pierden.

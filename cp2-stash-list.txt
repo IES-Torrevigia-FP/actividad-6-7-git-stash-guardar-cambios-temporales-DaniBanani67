@@ -1,0 +1,12 @@
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git stash list
+stash@{0}: On main: WIP login pasos 1 y 2
+dani@dani-VirtualBox:~/Documentos/dev/actividad-6-7-git-stash-guardar-cambios-temporales-DaniBanani67$ git log --oneline --all
+b1ecae7 (hotfix) Aplica hotfix urgente
+8bbc971 (refs/stash) On main: WIP login pasos 1 y 2
+3bad6e4 index on main: 656f46e Define tarea principal de login
+656f46e (HEAD -> main) Define tarea principal de login
+4b1cbb7 (origin/main, origin/HEAD) add deadline
+e86c405 Initial commit
+
+Los cambios del login se guardaron en el stash
+asi no los pierdo mientras hago el hotfix en otra rama.
